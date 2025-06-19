@@ -1,7 +1,7 @@
 name: CI Pipeline
 on: [push]  #触发事件
-jobs：
-  build：
+jobs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v4  # 拉取代码
